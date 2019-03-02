@@ -1,0 +1,92 @@
+
+
+    html, body{
+        margin:0;
+        padding: 0;
+    }    
+
+    
+    body{
+        background: rgb(194, 194, 196);
+        margin: 0;
+    }
+
+    nav {
+        float: right;
+      
+    }    
+
+    #content{
+        /* border: 1px solid black; */
+        width: 960px;
+        height: 400px;
+        margin: 20px auto;
+        clear: both;
+        background: #ffffff;
+        border-bottom: rgb(194, 194, 196);
+
+    }
+    
+    li{
+        display: inline-block
+    }
+
+    .about_me1{
+        float: left;
+        color: white;
+        width:300px;
+        background: #4aaaa5;
+        height: 79px;
+        margin:0;
+    
+    }
+    .about_me2{
+        float: left;
+        color: #4aaaa5;
+        width:960px;
+        background: white;
+        height: 79px;
+        margin:0;
+        
+    
+    }
+
+    header{
+        border-bottom: 1px solid rgb(194, 194, 196);
+        overflow: auto;
+        background: #ffffff;
+    }
+
+    #header-container{
+        width: 960px;
+        margin: 0 auto;
+        /* border: 1px solid blue; */
+        overflow:auto;
+
+    }
+
+    footer{
+        height: 50px;
+        background: gray;
+        border-top: 5px solid #4aaaa5;
+    }
+
+    input[type=text] {
+        width: 100%;
+        padding: 5px 20px 10px;
+        margin: 8px 0;
+        box-sizing: border-box;
+      }
+
+      .button {
+        background-color: #4aaaa5;
+        border: none;
+        color: white;
+        padding: 7px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }

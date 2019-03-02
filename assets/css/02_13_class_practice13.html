@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       var bands = [BrunoMars, YippeAi, CoolGuys, BadBoys, GoodBoys];
+       var userGuess = prompt("Which band or artist do you like?");
+       var userGuessLower= userGuess.toLowerCase();
+       if (bands.indexOf(userGuessLower) === -1){
+        alert("Nah! They'ree pretty lame...");
+       }
+       else{
+           alert("yes, they are cool");
+       }
+    </script>
+</body>
+</html>
